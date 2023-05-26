@@ -1,22 +1,14 @@
-# shards-version-manager
+# SVM
 
-TODO: Write a description here
-
-## Installation
-
-TODO: Write installation instructions here
+This is a version manager for all of your Crystal shards. It's simple!
 
 ## Usage
 
-TODO: Write usage instructions here
-
-## Development
-
-TODO: Write development instructions here
+If you want to update from version `0.1.0` to `0.1.1`, you would run `svm patch` under the same directory as your `shard.yml`.
 
 ## Contributing
 
-1. Fork it (<https://github.com/your-github-user/shards-version-manager/fork>)
+1. Fork it (<https://github.com/R-unic/shards-version-manager/fork>)
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
@@ -24,4 +16,4 @@ TODO: Write development instructions here
 
 ## Contributors
 
-- [R-unic](https://github.com/your-github-user) - creator and maintainer
+- [R-unic](https://github.com/R-unic) - creator and maintainer
