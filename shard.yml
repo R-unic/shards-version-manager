@@ -5,9 +5,8 @@ authors:
   - R-unic <roleyspersonal@gmail.com>
 
 targets:
-  shards-version-manager:
-    main: src/shards-version-manager.cr
+  svm:
+    main: src/svm.cr
 
 crystal: 1.8.1
-
 license: MIT
