@@ -1,5 +1,5 @@
 name: shards-version-manager
-version: 0.1.0
+version: 0.2.0
 
 authors:
   - R-unic <roleyspersonal@gmail.com>
@@ -8,5 +8,5 @@ targets:
   svm:
     main: src/svm.cr
 
-crystal: 1.8.1
+crystal: ">= 1.8.2  "
 license: MIT

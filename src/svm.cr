@@ -46,6 +46,13 @@ modified_shard : String = shard_yml.split('\n').map do |line|
       raise "Cannot apply '#{update_type}' because the version is missing the corresponding digit to update"
     end
 
+    if digit_idx == 1
+      version_digits[2] = 0
+    elsif digit_idx == 0
+      version_digits[1] = 0
+      version_digits[2] = 0
+    end
+
     version_digits[digit_idx] += 1
     new_version = version_digits.map(&.to_s).join('.') + (separated.size > 1 ? separated.last : "")
     "version: #{new_version}"
